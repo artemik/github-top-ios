@@ -70,9 +70,9 @@ int counter = 0; // For fake lost internet connection testing.
     
     NSString *serverAddress = [NSString stringWithFormat:@"https://api.github.com/search/repositories?q=created:%@&sort=watchers_count", today];
 
-	counter++;
+    counter++;
     if (counter % 3 == 0) {
-		// Simulate error by specifiyng an invalid URL.
+	// Simulate error by specifiyng an invalid URL.
         serverAddress = @"https://api.giERRORthub.com/search/repositories?q=created:2017-05-05&sort=watchers_count";
     }
     
