@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  first
+
+  Created by Admin on 01.06.17.
+  Copyright © 2017 Admin. All rights reserved.
+*/
+
+
+"ERROR" = "Error";
+"LOAD_FAILED" = "Failed to load repositries.";
+"TRY_AGAIN" = "Try again";
+"CLOSE" = "Close";

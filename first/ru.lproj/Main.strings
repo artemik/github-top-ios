@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QIg-CE-QGP"; */
+"QIg-CE-QGP.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ri1-tg-p9D"; */
+"Ri1-tg-p9D.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Load"; ObjectID = "SIW-Iq-bhj"; */
+"SIW-Iq-bhj.normalTitle" = "Загрузить";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Vz0-fh-lWo"; */
+"Vz0-fh-lWo.normalTitle" = "Отменить";
+
+/* Class = "UILabel"; text = "Forks:"; ObjectID = "dOA-L5-yXA"; */
+"dOA-L5-yXA.text" = "Форков:";
+
+/* Class = "UITextView"; text = "http://www.github.com/"; ObjectID = "gEv-eU-3FE"; */
+"gEv-eU-3FE.text" = "http://www.github.com/";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "l2w-Or-nE3"; */
+"l2w-Or-nE3.text" = "Label";
+
+/* Class = "UILabel"; text = "Stars:"; ObjectID = "naM-HL-uNp"; */
+"naM-HL-uNp.text" = "Звезд:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qUL-Dc-01O"; */
+"qUL-Dc-01O.text" = "Label";
+
+/* Class = "UITableViewCell"; accessibilityIdentifier = "SimpleTableCell"; ObjectID = "yml-me-8FL"; */
+"yml-me-8FL.accessibilityIdentifier" = "SimpleTableCell";

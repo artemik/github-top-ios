@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  first
+
+  Created by Admin on 01.06.17.
+  Copyright © 2017 Admin. All rights reserved.
+*/
+
+"ERROR" = "Ошибка";
+"LOAD_FAILED" = "Не удалось загрузить репозитории.";
+"TRY_AGAIN" = "Попробовать снова";
+"CLOSE" = "Закрыть";
