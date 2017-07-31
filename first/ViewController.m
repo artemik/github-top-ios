@@ -25,7 +25,6 @@ int counter = 0; // For fake lost internet connection testing.
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    /*tableData = [NSMutableArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Full Breakfast", @"Hamburger", @"Ham and Egg Sandwich", @"Creme Brelee", @"White Chocolate Donut", @"Starbucks Coffee", @"Vegetable Curry", @"Instant Noodle with Egg", @"Noodle with BBQ Pork", @"Japanese Noodle with Pork", @"Green Tea", @"Thai Shrimp Cake", @"Angry Birds Cake", @"Ham and Cheese Panini", nil];*/
     tableData = [NSMutableArray new];
     [self downloadJson];
     
@@ -49,8 +48,6 @@ int counter = 0; // For fake lost internet connection testing.
     static NSString *simpleTableIdentifier = @"simpleTableCell";
     
     CustomCell *cell = (CustomCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
-    //cell.nameLabel.text = [tableData objectAtIndex:indexPath.row];
-    //cell.descriptionLabel.text = [descriptions objectAtIndex:indexPath.row];
     
     Holder* holder = [tableData objectAtIndex:indexPath.row];
     cell.nameLabel.text = holder.name;
@@ -97,7 +94,6 @@ int counter = 0; // For fake lost internet connection testing.
                 NSString *url = [repository objectForKey:@"html_url"];
                 int stars = [[repository objectForKey:@"watchers"] intValue];
                 int forks = [[repository objectForKey:@"forks"] intValue];
-                //NSString *film = [NSString stringWithFormat:@"%@ (%@)", [obj objectForKey:@"title"], year];
                 
                 Holder *holder = [[Holder alloc] init];
                 holder.name = name;
